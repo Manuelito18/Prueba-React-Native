@@ -20,7 +20,7 @@ export default function Detail() {
           headerStyle: { backgroundColor: "gold" },
           headerTintColor: "black",
           headerLeft: () => null,
-          headerTitle: "Sousou no Frieren",
+          headerTitle: animeInfo ? animeInfo.title : "Cargando...",
           headerRight: () => null,
         }}
       />

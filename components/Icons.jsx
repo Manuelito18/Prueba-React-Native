@@ -12,3 +12,7 @@ export const DataIcon = (props) => (
 export const HomeIcon = (props) => (
   <Entypo name="home" size={24} color="white" {...props} />
 );
+
+export const InfoIcon = (props) => (
+  <Entypo name="info" size={24} color="white" {...props} />
+);
